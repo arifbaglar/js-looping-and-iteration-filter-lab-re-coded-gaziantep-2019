@@ -21,10 +21,10 @@ function fuzzyMatch(array, name){
   return newCollection;
 }
 
-function matchName(array, name){
+function matchName(array, isim){
   const newCollection = [];
   for (const user of array) {
-    if (user.name)) {
+    if (user.name=isim) {
       newCollection.push(user);
     }
   }
