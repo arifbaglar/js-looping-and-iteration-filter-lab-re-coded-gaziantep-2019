@@ -20,3 +20,15 @@ function fuzzyMatch(array, name){
  
   return newCollection;
 }
+
+
+
+
+
+
+
+
+
+
+
+
