@@ -6,9 +6,8 @@ function findMatching(array,name){
 function colorFilter (collection, name) {
   for (const user in array) {
     if (user === name) {
-      console.log(user.firstName);
+      console.log(user.name);
     }
   }
 }
  
-colorFilter(users, 'Red');
