@@ -10,6 +10,13 @@
   return newCollection;
 }
 
-function fuzzyMatch(){
-  
+function fuzzyMatch(array, name){
+  const newCollection = [];
+  for (const user of array) {
+    if (user.toUpperCase() === name.toUpperCase()) {
+      newCollection.push(user);
+    }
+  }
+ 
+  return newCollection;
 }
