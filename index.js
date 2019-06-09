@@ -24,7 +24,7 @@ function fuzzyMatch(array, name){
 function matchName(array, isim){
   const newCollection = [];
   for (const user of array) {
-    if (user.name = isim) {
+    if (user.name === isim) {
       newCollection.push(user);
     }
   }
