@@ -21,7 +21,12 @@ function fuzzyMatch(array, name){
   return newCollection;
 }
 
-function matchName()
+function matchName(array, name){
+  
+  
+  
+  
+}
 
 
 
