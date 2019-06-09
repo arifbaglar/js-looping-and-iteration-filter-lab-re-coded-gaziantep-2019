@@ -22,7 +22,14 @@ function fuzzyMatch(array, name){
 }
 
 function matchName(array, name){
-  
+  const newCollection = [];
+  for (const user of array) {
+    if (user.name)) {
+      newCollection.push(user);
+    }
+  }
+ 
+  return newCollection;
   
   
   
