@@ -2,7 +2,7 @@
  function findMatching (array, name) {
   const newCollection = [];
   for (const user of array) {
-    if (user === name) {
+    if (uppercase.user === uppercase.name) {
       newCollection.push(user);
     }
   }
