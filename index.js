@@ -1,8 +1,8 @@
 // Code your solution in this file
-function colorFilter (collection, name) {
+function findMatching(array, name) {
   for (const user of array) {
     if (user === name) {
-      console.log(user.name);
+      return name.array;
     }
   }
 }
