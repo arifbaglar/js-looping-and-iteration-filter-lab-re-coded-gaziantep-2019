@@ -13,7 +13,7 @@
 function fuzzyMatch(array, name){
   const newCollection = [];
   for (const user of array) {
-    if (user.includes(name) = true) {
+    if (user.startswith(name) = true) {
       newCollection.push(user);
     }
   }
